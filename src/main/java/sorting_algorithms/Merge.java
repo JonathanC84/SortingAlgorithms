@@ -1,3 +1,5 @@
+package sorting_algorithms;
+
 public class Merge {
 
     // Tri fusion (merge sort)

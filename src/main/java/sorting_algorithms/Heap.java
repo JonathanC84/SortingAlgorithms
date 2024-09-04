@@ -1,3 +1,7 @@
+package sorting_algorithms;
+
+import sorting_algorithms.tools.Tools;
+
 public class Heap {
 
     // Tri par tas (heap sort)
@@ -9,7 +13,7 @@ public class Heap {
             sink(array, i, length);
         }
         for (int i = length - 1; i > 0; i--) {
-            Swap.swap(array[i], array[0]);
+            Tools.swap(array[i], array[0]);
             sink(array, 0, i - 1);
         }
     }
@@ -21,7 +25,7 @@ public class Heap {
                 j = j + 1;
             }
             if (array[index] < array[j]) {
-                Swap.swap(array[index], array[j]);
+                Tools.swap(array[index], array[j]);
                 index = j;
                 j = 2 * index;
             } else {

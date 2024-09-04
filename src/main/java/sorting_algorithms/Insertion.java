@@ -1,3 +1,5 @@
+package sorting_algorithms;
+
 public class Insertion {
 
     // Tri par insertion (insertion sort)

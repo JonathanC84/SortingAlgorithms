@@ -1,3 +1,5 @@
+import sorting_algorithms.*;
+
 import java.util.Arrays;
 
 public class Application {
@@ -10,37 +12,37 @@ public class Application {
         System.out.println("**********************************");
         System.out.println();
 
-        System.out.println("Insertion sort");
+        System.out.println("sorting_algorithms.Insertion sort");
         int[] insertionArray = initialArray;
         Insertion.sort(insertionArray);
         System.out.println(Arrays.toString(insertionArray));
         System.out.println();
 
-        System.out.println("Bubble sort");
+        System.out.println("sorting_algorithms.Bubble sort");
         int [] bubbleArray = initialArray;
         Bubble.sort(bubbleArray);
         System.out.println(Arrays.toString(bubbleArray));
         System.out.println();
 
-        System.out.println("Selection sort");
+        System.out.println("sorting_algorithms.Selection sort");
         int [] selectionArray = initialArray;
         Selection.sort(selectionArray);
         System.out.println(Arrays.toString(selectionArray));
         System.out.println();
 
-        System.out.println("Quick sort");
+        System.out.println("sorting_algorithms.Quick sort");
         int [] quickArray = initialArray;
         Quick.sort(quickArray);
         System.out.println(Arrays.toString(quickArray));
         System.out.println();
 
-        System.out.println("Heap sort");
+        System.out.println("sorting_algorithms.Heap sort");
         int [] heapArray = initialArray;
         Heap.sort(heapArray);
         System.out.println(Arrays.toString(heapArray));
         System.out.println();
 
-        System.out.println("Merge sort");
+        System.out.println("sorting_algorithms.Merge sort");
         int [] mergeArray = initialArray;
         Merge.sort(mergeArray);
         System.out.println(Arrays.toString(mergeArray));

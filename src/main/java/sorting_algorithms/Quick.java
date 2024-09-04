@@ -1,3 +1,7 @@
+package sorting_algorithms;
+
+import sorting_algorithms.tools.Tools;
+
 public class Quick {
 
     // Tri rapide (quick sort)
@@ -22,7 +26,7 @@ public class Quick {
         int pIndex = first;
         for (int i = first; i < last ; i++) {
             if (array[i] < pivot) {
-                Swap.swap(array[i], array[pIndex]);
+                Tools.swap(array[i], array[pIndex]);
                 pIndex++;
             }
         }

@@ -1,3 +1,7 @@
+package sorting_algorithms;
+
+import sorting_algorithms.tools.Tools;
+
 public class Bubble {
 
     // Tri à bullles (bubble sort)
@@ -8,7 +12,7 @@ public class Bubble {
             boolean isSorted = true;
             for (int j = 0; j < i; j++) {
                 if (array[j + 1] < array[j]) {
-                    Swap.swap(array[j], array[j + 1]);
+                    Tools.swap(array[j], array[j + 1]);
                     isSorted = false;
                 }
             }

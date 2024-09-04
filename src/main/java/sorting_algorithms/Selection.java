@@ -1,3 +1,7 @@
+package sorting_algorithms;
+
+import sorting_algorithms.tools.Tools;
+
 public class Selection {
 
     // Tri par sélection (selection sort)
@@ -13,7 +17,7 @@ public class Selection {
                 }
             }
             if (min != i) {
-                Swap.swap(array[i], array[min]);
+                Tools.swap(array[i], array[min]);
             }
         }
     }
